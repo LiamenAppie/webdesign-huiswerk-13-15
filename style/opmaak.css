@@ -1,0 +1,203 @@
+/*voor elke pagina*/
+
+img{
+	margin: 3em;
+	padding: 2px;
+}
+
+body{
+	background-color: #d8cfcf;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #8E2323;
+	padding: 5px;
+	}
+
+header{
+	width: 98%;
+	height: 60px;
+	padding: 5px;
+	color: #8E2323;
+	margin-left: auto;
+	margin-right: auto;
+	position: sticky;
+	text-align: right;
+}
+
+
+.footer {
+	position: fixed;
+	margin-left: 25%;
+	bottom: 1px;
+	width: 50%;
+	height: 30px;
+	background-color: rgb(88, 189, 247);
+	color: #8E2323;
+	text-align: center;
+	padding: 5px;
+	font-size: 15px;
+	
+}
+
+
+ul a{
+	text-decoration: none;
+	color: #8E2323;
+	}
+	
+	li{
+		display: inline-block;
+		height:20px;
+		width: 180px;
+		padding: 4px;
+		text-align: center;
+		border-top-left-radius: 15px;
+		border-left: 5px solid rgb(88, 189, 247);
+		border-right: 4px solid rgb(88, 189, 247);
+		border-top-left-radius: 20px;
+		background-color: #d8cfcf;
+		}
+
+	li:hover{
+		background-color: rgba(88, 189, 247, 0.3);
+		}
+
+h1, h2, h3, footer{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+
+a:hover{
+	color: rgb(42, 126, 165);
+	background-color: transparent;
+	}
+
+	table{
+		width: 75%;
+	}
+	
+
+/*voor de index*/
+.txtsze{
+	font-size: 14px;
+}
+.align1{
+	text-align: left;
+}
+
+
+.tdc{
+	padding-left: 5px;
+	border-style: solid;
+	border-color: #8E2323;
+	border-top-left-radius: 35px;
+	border-bottom-left-radius: 35px;
+	border-top: #d8cfcf;
+	border-right: #d8cfcf;
+	border-bottom: #d8cfcf;
+}
+
+/*voor cv*/
+.divcv{
+	text-align: center;
+}
+
+.tablecv{
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	padding-left: 5px;
+	font-size: 0.8rem;
+}
+
+.borderone{
+	border: 2px solid #8E2323;
+	}
+
+.textone{text-transform: uppercase;
+		font-weight: bold;
+	}
+
+.texttwo{
+		vertical-align: text-top;
+	}
+
+a.one:link{text-decoration: none;}
+
+.tdc2{
+	padding: 5px;
+	border-style: solid;
+	border-color: #8E2323;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top: #d8cfcf;
+	border-right: #d8cfcf;
+	border-bottom: #d8cfcf;
+}
+
+.tdc3{
+	padding: 5px;
+	border-style: solid;
+	border-color: #8E2323;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-left: #d8cfcf;
+	border-bottom: #d8cfcf;
+	border-top: #d8cfcf;
+}
+hr{
+	width: 55%;
+	height: 2px;
+	background-color: rgb(10, 128, 196);
+}
+
+/*voor contact*/
+input[type="text"], input[type="email"]
+{
+	display: block; 
+	width: 350px;
+	min-height: fit-content;
+	margin: 25px;
+	background-color: #d8cfcf;
+	border-color: #8E2323;
+	border-top-left-radius: 5px;
+	border-top: #d8cfcf;
+	border-right: #d8cfcf;
+	box-sizing: border-box;
+}
+
+textarea{
+	padding-top: 25px;
+	width: 350px;
+	min-height: 200px;
+	background-color: #d8cfcf;
+	border-color: #8E2323;
+	border-radius: 10px;
+	margin: 25px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+	
+button{
+	width: 350px;
+	margin: 25px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #d8cfcf;
+	border-color: #8E2323;
+	box-shadow: 3px 3px 5px #450808;
+	}
+
+button:hover{
+	background-color: rgb(235, 35, 35);
+}
+
+button:active{
+	background-color: rgb(194, 76, 76);
+	color: brown;
+	border-radius: 15px; box-shadow: 3px 3px 25px rgb(158, 68, 4);
+}
+
+
+
